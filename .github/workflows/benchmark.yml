@@ -1,6 +1,8 @@
 name: Benchmark GitHub Runner
 
-on: [workflow_dispatch]
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   benchmark:
